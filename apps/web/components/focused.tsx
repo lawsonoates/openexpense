@@ -9,7 +9,8 @@ export function Focused({ children }: { children: React.ReactNode }) {
 					<span className="type-brand">OpenExpense</span>
 				</Link>
 			</h3>
-			<div className="mb-auto mt-0 sm:mx-auto sm:w-full sm:max-w-md flex flex-col gap-8">
+			{/* <div className="mb-auto mt-0 sm:mx-auto sm:w-full sm:max-w-md flex flex-col gap-8"> */}
+			<div className="mb-auto mt-0 sm:mx-auto sm:w-full sm:max-w-7xl flex flex-col gap-8">
 				{children}
 			</div>
 		</div>
